@@ -31,10 +31,8 @@ Print formatted text to standard output stream (stdout).
 Any additional information goes here
 
 
-## Authors
+## Author
 
-- Ashley Chapman
-(https://www.github.com/ajchapman777)
 
 - Samuel Martin
 (https://www.github.com/sammigmar)
