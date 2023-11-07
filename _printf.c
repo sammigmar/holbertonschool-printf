@@ -8,7 +8,7 @@
 
 int _printf(const char *format, ...)
 {
-  unsigned int i; count = 0;
+  unsigned int i, count = 0;
 
   va_list args;
 
@@ -20,5 +20,11 @@ int _printf(const char *format, ...)
 	{
 	  sammigmar_putchar(format[i]);
 	}
+      if (format[i] == '%' && format[i + 1] == 'c')
+	{
+	  sammigmar_putchar(va_arg(args, int));
+	}
+      count += 1;
     }
+  return (count);
 }
