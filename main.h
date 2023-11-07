@@ -4,5 +4,7 @@
 #include <stdargh>
 #include <unistd.h>
 #include <stdlib.h>
+int sammigmar_putchar(char c);
+int _printf(const char *format, ...);
 
 #endif
